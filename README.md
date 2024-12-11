@@ -1,4 +1,4 @@
-﻿# SHOTIFY (url-shortner-qrcode-generator)
+﻿# SHORTIIFY (url-shortner-qrcode-generator)
 ![shortify 01](https://github.com/jovination/shortify_url-shortner/assets/79380563/40704277-078d-44c2-ab42-750e3e5bbf04)
 <h1>Introduction</h1>
 <p>Shortify is a versatile project that combines the functions of a URL shortener and a QR code generator. I designed Shortify to provide an all-in-one solution that simplifies links and scans, catering to numerous areas of productivity and usefulness.</p>
@@ -49,6 +49,6 @@ http://localhost:5001
 
 ```shell
 
-https://shortify-url-shortner-qrcode-generator.onrender.com/
+https://shortiify.website
 
 ```
