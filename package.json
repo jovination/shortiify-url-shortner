@@ -16,12 +16,12 @@
     "config": "^3.3.9",
     "ejs": "^3.1.10",
     "express": "^4.21.0",
+    "firebase": "^11.0.2",
     "mongodb": "^6.3.0",
-    "mongoose": "^7.6.7",
-    "mongose": "^0.0.2-security",
+    "mongoose": "^8.8.4",
     "node-fetch": "^2.7.0",
     "sass": "^1.72.0",
-    "shortid": "^2.2.16",
+    "shortid": "^2.2.8",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {

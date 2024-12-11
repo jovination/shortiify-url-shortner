@@ -1,8 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const fetch = require('node-fetch'); // npm install node-fetch
 const shortid = require('shortid');
 const connectDB = require('./config/db');
+const { firebaseApp, analytics } = require('./config/firebaseConfig');
+
 
 const app = express();
 
