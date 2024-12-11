@@ -19,7 +19,7 @@
   <div class="shortify-logo">
     <a href="#">
       <img class="logo" src="images/logo.svg" alt="">
-      <span class="site-name">Shortify</span>
+      <span class="site-name">Shortiify</span>
     </a>
   </div>
   <div class="nav-buttons">
@@ -244,6 +244,29 @@
 
 
 <script src="/js/script.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDcb2gGt3ivL-wLUEU6vZ7L-oRMK9e1Wzo",
+      authDomain: "shortiify-website.firebaseapp.com",
+      projectId: "shortiify-website",
+      storageBucket: "shortiify-website.firebasestorage.app",
+      messagingSenderId: "61015371527",
+      appId: "1:61015371527:web:d3fd34a9dc8a9b796b5fa2",
+      measurementId: "G-4N329SZPWY"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 
 
 </main>

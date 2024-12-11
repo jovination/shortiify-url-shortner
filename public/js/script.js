@@ -234,17 +234,3 @@ document.addEventListener('DOMContentLoaded', function() {
     showLinkIcon1();
     downloadBtn.onclick = downloadImage;
 });
-
-
-const { firebaseApp, analytics } = require('./config/firebaseConfig');
-initializeApp(firebaseConfig);
-if (typeof window !== "undefined") {
-  isSupported().then((supported) => {
-    if (supported) {
-      const analytics = getAnalytics(firebaseApp);
-      console.log("Firebase Analytics initialized");
-    } else {
-      console.log("Firebase Analytics is not supported in this environment.");
-    }
-  });
-}

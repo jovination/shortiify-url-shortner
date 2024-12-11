@@ -362,6 +362,7 @@ input[type=url] {
 .section-two {
   max-width: 100%;
   height: 720px;
+  padding-top: 20px;
   background-color: white;
   margin: 0;
 }
