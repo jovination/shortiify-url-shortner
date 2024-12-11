@@ -1,3 +1,16 @@
+const { firebaseApp, analytics } = require('./config/firebaseConfig');
+initializeApp(firebaseConfig);
+if (typeof window !== "undefined") {
+  isSupported().then((supported) => {
+    if (supported) {
+      const analytics = getAnalytics(firebaseApp);
+      console.log("Firebase Analytics initialized");
+    } else {
+      console.log("Firebase Analytics is not supported in this environment.");
+    }
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     let fun__btn1 = document.querySelector('.btn1');
     let fun__btn2 = document.querySelector('.btn2');
@@ -232,4 +245,5 @@ document.addEventListener('DOMContentLoaded', function() {
     showLinkIcon1();
     downloadBtn.onclick = downloadImage;
 });
+
 
